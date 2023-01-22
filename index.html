@@ -292,8 +292,8 @@
         <h3 class="text-center my-5 fs-2 fw-bolder">Our Package</h3>
         <div class="row card-container justify-content-evenly gy-4">
           <div
-            class="col card-item p-4 me-3"
-            style="background-color: #f496d213; border-radius: 10px"
+            class="col-lg-3 col-md-4 col-sm-6 col-12 card-item p-4"
+            style="border-radius: 10px"
           >
             <span class="fw-bolder fs-2">$300</span>
             <h5 class="fw-bold fs-4 mt-2">Business fair</h5>
@@ -357,8 +357,8 @@
             </button>
           </div>
           <div
-            class="col card-item p-4 me-3"
-            style="background-color: #f496d213; border-radius: 10px"
+            class="col-lg-3 col-md-4 col-sm-6 col-12 card-item p-4"
+            style="border-radius: 10px"
           >
             <span class="fw-bolder fs-2">$500</span>
             <h5 class="fw-bold fs-4 mt-2">Wedding basic</h5>
@@ -421,7 +421,7 @@
             </button>
           </div>
           <div
-            class="col card-item p-4 me-3 text-white position-relative"
+            class="col-lg-3 col-md-4 col-sm-6 col-12 card-item p-4 text-white position-relative"
             style="
               background-color: rgba(5, 5, 244, 0.893);
               border-radius: 10px;
@@ -429,7 +429,8 @@
             "
           >
             <span
-              class="position-absolute top-0 translate-middle start-100 badge rounded-pill bg-danger fs-6"
+              class="position-absolute top-0 translate-middle badge rounded-pill bg-danger fs-6"
+              style="left: 90%"
               >Hot</span
             >
             <span class="fw-bolder fs-2">$800</span>
@@ -491,8 +492,8 @@
             </button>
           </div>
           <div
-            class="col card-item p-4 me-3"
-            style="background-color: #f496d213; border-radius: 10px"
+            class="col-lg-3 col-md-4 col-sm-6 col-12 card-item p-4"
+            style="border-radius: 10px"
           >
             <span class="fw-bolder fs-2">$1200</span>
             <h5 class="fw-bold fs-4 mt-2">Corporate event</h5>
@@ -597,10 +598,8 @@
         <h3 class="text-center my-5 fs-2 fw-bolder">
           Frequently Asked Question
         </h3>
-        <div
-          class="row row-cols-1 row-cols-md-3 gap-4 align-items-center justify-content-center"
-        >
-          <div class="col">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-sm-5 col-12">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
@@ -713,31 +712,38 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-sm-5 col-12">
             <img class="img-fluid" src="./images/people.png" alt="" />
           </div>
         </div>
       </section>
     </main>
     <!-- footer section -->
-    <footer
-      class="container-xxl mt-5 p-2 p-md-5 bg-dark text-white d-flex align-items-center justify-content-between"
-    >
-      <p>&copy;2023 ahmed All right reserved</p>
-      <div class="">
-        <h5 class="mb-3">Get the App</h5>
-        <a href="#">
-          <img
-            class="img-fluid me-3"
-            src="./images/icons/291728_market_app_store_logo_apple_icon (1).png"
-            alt=""
-        /></a>
-        <a href="#"
-          ><img
-            class="img-fluid "
-            src="./images/icons/4373135_google_logo_logos_play_icon.png"
-            alt=""
-        /></a>
+    <footer class="container-xxl mt-5 bg-dark text-white">
+      <div
+        class="row d-flex align-items-center justify-content-evenly"
+        style="height: 200px"
+      >
+        <div class="col-md-4 col-12">
+          <p>&copy;2023 ahmed All right reserved</p>
+        </div>
+        <div class="col-md-4 col-12 py-4">
+          <h5 class="mb-3">Get the App</h5>
+          <a href="#">
+            <img
+              style="width: 40px"
+              class="img-fluid me-3"
+              src="./images/icons/291728_market_app_store_logo_apple_icon (1).png"
+              alt=""
+          /></a>
+          <a href="#"
+            ><img
+              style="width: 40px"
+              class="img-fluid"
+              src="./images/icons/4373135_google_logo_logos_play_icon.png"
+              alt=""
+          /></a>
+        </div>
       </div>
     </footer>
     <!-- bootstrap js cdn -->
